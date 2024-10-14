@@ -1,9 +1,8 @@
-/* Custom Styles */
 .register-container {
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    width: 600px; /* Adjust the width as per your need */
+    width: 600px; 
     font-family: Arial, Helvetica, sans-serif;
     height: 88%;
     border: 1px solid black;
@@ -29,7 +28,7 @@ h2 {
 }
 
 .bg-primary {
-    background-color: 266CA8; /* Adjust background to match your provided image */
+    background-color: 266CA8; 
 }
 .form-control {
     border: 1px solid black;
