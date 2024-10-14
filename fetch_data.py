@@ -15,7 +15,7 @@ def get_swell_data(latitude, longitude):
             connection = mysql.connector.connect(
                 host='localhost',
                 user='root',
-                password='root_123',
+                password='12345678',
                 database='swell_wave_v2'
             )
             cursor = connection.cursor()
