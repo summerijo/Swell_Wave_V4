@@ -34,7 +34,7 @@ def get_stored_data():
                        (latitude, longitude))
         location = cursor.fetchone()  # Fetch the first result
 
-        # If the location is not found, fetch data from the API
+    
         # If location is not found, fetch data from the API
         if not location:
             print("[DEBUG] Location not found. Fetching from API...")
@@ -52,7 +52,7 @@ def get_stored_data():
                             WHERE latitude = CAST(%s AS DECIMAL(10, 7))
                             AND longitude = CAST(%s AS DECIMAL(10, 7))''',
                         (latitude, longitude))
-            location = cursor.fetchone()  # Fetch the newly inserted result
+            location = cursor.fetchone() 
 
 
         # Handle the case where the location ID is still not found
